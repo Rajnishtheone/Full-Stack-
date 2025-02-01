@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+</head>
+<style>
+    .website{
+        border: 2px solid;
+        display: grid;
+        grid-template-areas: 
+        "h h h"
+        "c c a"
+        "f f f";
+        background-color: rgb(17, 185, 241);
+
+
+    }
+    .header{
+        border: 2px solid;
+        grid-area: h;
+    }
+    .content{
+        border: 2px solid;
+        grid-area: c;
+    }
+    .ads{
+        border: 2px solid;
+        grid-area: a;
+    }
+    .footer{
+        border: 2px solid;
+        grid-area: f;
+    }
+    .item{
+        border: 2px solid;
+        background-color: rgb(17, 185, 241);
+    }
+
+
+</style>
+<body>
+<div class="website">
+
+    <div class="header"  item >Header</div>
+    <div class="content" item>Content</div>
+    <div class="ads" item >Ads</div>
+    <div class="footer" item > footer</div>
+</div>
+</body>
+</html>
