@@ -16,4 +16,4 @@ else if(numberofguest<=6){
 else{
     pizzaSize="extra large";
 }
-console.log(`you need a ${pizzaSize} pizza`);
+console.log(pizzaSize);
