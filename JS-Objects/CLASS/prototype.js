@@ -14,7 +14,10 @@ const obj2 ={
     lname: "kumar",
 
 };
+obj2.__proto__=obj;
+
 
 
 console.log(obj.getFullName());
 console.log(obj2.getFullName());
+console.log(obj2.toString); // Dhrub kumar 
