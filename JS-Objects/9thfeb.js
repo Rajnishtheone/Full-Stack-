@@ -58,4 +58,7 @@ const anothercopy =teas;//refrence
 
 // add a custom method describe to the object that returns a description string
 
+myTeas.describe=function(){
+    console.log("this is a tea");
+}
 
