@@ -8,3 +8,13 @@ const tea = {
     type : "cool",
 };
 Object.chai();
+
+//// change string to number 
+
+const str="122";
+const num=Number(str);
+console.log(num);
+console.log(typeof num);
+// retunrn random number between 0 and 1
+const random=Math.random();
+console.log(random);
