@@ -18,3 +18,13 @@ console.log(typeof num);
 // retunrn random number between 0 and 1
 const random=Math.random();
 console.log(random);
+let msg="rajnish";
+console.log(msg.toUpperCase());
+
+let n="Raja bhai";
+
+const greeting = `Hello ${n}`;
+
+
+
+console.log(greeting);
