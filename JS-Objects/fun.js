@@ -21,6 +21,9 @@ console.log(random);
 let msg="rajnish";
 console.log(msg.toUpperCase());
 
+
+// template literals
+
 let n="Raja bhai";
 
 const greeting = `Hello ${n}`;
